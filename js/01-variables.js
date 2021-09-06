@@ -42,3 +42,5 @@ console.log('labas');
 
  const pazymys1 = 5;
  const pazymys_2 = 2
+
+ 
