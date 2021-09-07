@@ -35,16 +35,26 @@ masyvas.forEach(element => {
 });
 
 
-const neigiamiSkaiciai = [-5, -8, -0,001];
+const neigiamiSkaiciai = [-5, -8, -0.001]; // naudoti TASKA!
 
-neigiamiSkaiciai.forEach(element) => {
+neigiamiSkaiciai.forEach((element, index) => {
     console.log(element);
-    if (element === -0,001) {
-        console.log(traukiam i sarasa);
+    if (element === -0.001) {
+        console.log(`traukiam i sarasa indexas ${index}`);
     }
     else {
-        console.log(nereikalinga);
+        console.log('nereikalinga');
     }
 
-}
+})
+
+// maps'as, panasus i foreach'a. Eina per kiekviena reiksme
+neigiamiSkaiciai.map((skaicius, index) => {
+    console.log(`cia yra skaicius ${skaicius}`);
+    console.log(`cia yra indeksas ${index}`)
+});
+
+module.exports = neigiamiSkaiciai; // kintamojo pavad.,kuri eksportuojam
+
+
 
