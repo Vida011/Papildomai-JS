@@ -18,12 +18,12 @@ const veiksmas = 'Einu apsipirkti';
 const apsipirkimas = `${parduotuve} as ${veiksmas}`;
 console.log(apsipirkimas);
 
-const marks = [10, 8, 8, 4];
+const marks = [10, 8, 8, 4]; //alternuojanti eilutė
 console.log(marks);
 
 const marksSum = marks[0] + marks[1] + marks[2] + marks[3];
 console.log(marksSum);
 
-const example = marks[0 + 1 + 2];
+const example = marks[0 + 1 + 2]; //tai tas pats kas marks[3] -> 4 (3-oj pozic.yra reiksmė 4);
 console.log(example);
 
