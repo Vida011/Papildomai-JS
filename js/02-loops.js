@@ -54,7 +54,7 @@ neigiamiSkaiciai.map((skaicius, index) => {
     console.log(`cia yra indeksas ${index}`)
 });
 
-module.exports = neigiamiSkaiciai; // kintamojo pavad.,kuri eksportuojam
+// module.exports = neigiamiSkaiciai; // kintamojo pavad.,kuri eksportuojam
 
-
+export{neigiamiSkaiciai}
 
