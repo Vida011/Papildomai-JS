@@ -18,10 +18,12 @@ const veiksmas = 'Einu apsipirkti';
 const apsipirkimas = `${parduotuve} as ${veiksmas}`;
 console.log(apsipirkimas);
 
-const marks = [10, 3, 8, 4];
+const marks = [10, 8, 8, 4];
 console.log(marks);
 
-
-const marksSum = 10 + 3 + 8 + 4;
+const marksSum = marks[0] + marks[1] + marks[2] + marks[3];
 console.log(marksSum);
+
+const example = marks[0 + 1 + 2];
+console.log(example);
 
