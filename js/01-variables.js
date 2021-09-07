@@ -32,6 +32,8 @@ console.log('labas');
 
  Dalia.amzius = 38; // objekto viduje esančios reikšmės pakeitimas galimas.
 
+ console.log(Dalia['gyvenamojiVieta' + ' yra' + ' Palanga']);
+
 
  // console.log(Dalia.amzius); // console atsapusdins tik "40"
 

@@ -36,3 +36,15 @@ masyvas.forEach(element => {
 
 
 const neigiamiSkaiciai = [-5, -8, -0,001];
+
+neigiamiSkaiciai.forEach(element) => {
+    console.log(element);
+    if (element === -0,001) {
+        console.log(traukiam i sarasa);
+    }
+    else {
+        console.log(nereikalinga);
+    }
+
+}
+
