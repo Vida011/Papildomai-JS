@@ -14,11 +14,17 @@ function labas(vardas) {
     return `Labas, ${vardas}!`;
 }
 
-    // let vardas = Petras;
+const vardas = 'Petras';
 
-console.log(labas('Petrai'));
+console.log(labas(vardas));
 
-function kurisDidesnis(a, b) {
-    return a > b? 'pirmas' : 'antras';
+// function kurisDidesnis(a, b) {
+//     return a > b? 'pirmas' : 'antras';
+// }
+// console.log(kurisDidesnis(7, 4));
+
+const a = 4;
+const b = 8;
+if (a < b) {
+    console.log('A yra daugiau už B'); // kodėl taip leidžia sapusdinti?
 }
-console.log(kurisDidesnis(7, 4));
