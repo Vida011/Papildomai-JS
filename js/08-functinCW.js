@@ -24,7 +24,7 @@ function opposite(number) {
 // Convert a Number to a String!
 function numberToString(num) {}
 
-// You get an array of numbers, return the sum of all of the positives ones.
+// You get an array of numbers, return the sum of all of the positives ones.(1)
 const array = [-2, 3, -5, 7];
 function positiveSum() {
   let sum = 0;
@@ -43,3 +43,26 @@ positiveSum();
 for (let i = 1; i < array.length; i = i + 2) {
   console.log(array[i]);
 }
+
+// You get an array of numbers, return the sum of all of the positives ones.(2)
+function positiveSum(arr) {
+  let sum = 0;
+ for (let i = 0; i < arr.length; i++) {
+   if (arr[i] > 0) {
+ 
+     sum = sum + arr[i];
+   }
+ } // CIKLO PABAIGA
+   return sum 
+} // FUNKCIJOS PABAIGA
+
+KITŲ ŽMONIŲ SPRENDIMAI:
+function positiveSum(arr) {
+  var total = 0;    
+  for (i = 0; i < arr.length; i++) {    // setup loop to go through array of given length
+    if (arr[i] > 0) {                   // if arr[i] is greater than zero
+      total += arr[i];                  // add arr[i] to total
+    }
+  }
+  return total;                         // return total
+

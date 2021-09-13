@@ -26,5 +26,5 @@ console.log(labas(vardas));
 const a = 4;
 const b = 8;
 if (a < b) {
-    console.log('A yra daugiau už B'); // kodėl taip leidžia sapusdinti?
+    console.log('A yra daugiau už B'); // kodėl taip leidžia sapusdinti? Tikrinama tik kintamųjų logika
 }
